@@ -1,0 +1,29 @@
+{
+    "name": "test-ask/yii2-log-manager",
+    "description": "Tools to store log for Yii2",
+    "keywords": ["yii2", "extension", "log", "logger"],
+    "homepage": "https://github.com/test-ask/yii2-log-manager",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Test ask",
+            "email": "test-ask@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "2.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "testAsk\\logManager\\": "src"
+        }
+    }
+}
